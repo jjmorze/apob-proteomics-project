@@ -42,7 +42,7 @@ library(readxl)
 
 # Load MESA validation results for incident CHD
 mesa_coxph <- read_excel(
-  "~/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop – Jakub's Mac mini/Projects/UK Biobank/Olink Proteomics/natmed-apob-proteomics/data/mesa-validation/MESA Validation 2025-8-17.xlsx",
+  "~/MESA Validation 2025-8-17.xlsx",
   sheet = "Incident CHD"
 )
 
@@ -115,7 +115,7 @@ combined_ukbb_mesa_coxph_output <- combined_ukbb_mesa_coxph %>%
 write_csv(
   combined_ukbb_mesa_coxph_output,
   file = "PATH/table-mesa-coxph-proteins.csv")
-)
+
 
 # ==============================================================================
 #  END OF SCRIPT
