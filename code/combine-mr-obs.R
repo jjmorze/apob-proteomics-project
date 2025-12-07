@@ -48,7 +48,7 @@ library(readr)
 # ==============================================================================
 
 mr_results <- read_excel(
-  "~/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop – Jakub's Mac mini/Projects/UK Biobank/Olink Proteomics/natmed-apob-proteomics/data/mendelian-randomization/mr_results.xlsx"
+  "~/mr_results.xlsx"
 )
 
 # ==============================================================================
